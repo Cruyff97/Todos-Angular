@@ -17,7 +17,6 @@ export class SharedDatasService {
     description: "I had to learn React in depth"
   }]
 
-  changeEmitted$ = new Subject<any>();
 
   getTodos() {
     return this.Todos;
