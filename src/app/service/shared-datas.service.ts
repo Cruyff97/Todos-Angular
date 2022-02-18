@@ -19,7 +19,9 @@ export class SharedDatasService {
 
 
   getTodos() {
+    console.log(this.Todos);
     return this.Todos;
+    
   }
   pushTodo(todo:any){
 this.Todos.push(todo)

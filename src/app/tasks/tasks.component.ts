@@ -8,6 +8,7 @@ import { SharedDatasService } from '../service/shared-datas.service';
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent implements OnInit {
+  panelOpenState = false;
  tasks?:Task[];
   constructor(public inputShared: SharedDatasService) { }
 

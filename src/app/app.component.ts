@@ -9,8 +9,6 @@ import { SharedDatasService } from './service/shared-datas.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
- newTasks?: any;
-
   title = 'Todo';
   ngOnInit(): void {
   
