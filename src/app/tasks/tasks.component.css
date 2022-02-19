@@ -4,3 +4,12 @@
 .deadline{
     margin-bottom: 1px;
 }
+.completed{
+    text-decoration: line-through;
+}
+.delete-btn{
+    margin-right: 10px;
+}
+.delete-btn:hover{
+    color: red;
+}

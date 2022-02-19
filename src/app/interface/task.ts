@@ -1,5 +1,5 @@
 export interface Task {
-    task:string, 
+    title:string, 
     deadline?: any,
      description?:string
 

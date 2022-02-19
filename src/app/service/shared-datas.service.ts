@@ -7,12 +7,12 @@ import { Task } from '../interface/task';
 })
 export class SharedDatasService {
   Todos: Task[]=[{
-    task: 'Learn Angular',
+    title: 'Learn Angular',
     deadline: "03-04-2030",
     description: "I had to learn Angular in depth"
   },
   {
-    task: 'Learn React',
+    title: 'Learn React',
     deadline: "03-04-2040",
     description: "I had to learn React in depth"
   }]

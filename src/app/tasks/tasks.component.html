@@ -1,16 +1,18 @@
-<mat-accordion *ngFor="let task of tasks">
-    <mat-expansion-panel (opened)="panelOpenState = true"
+<mat-accordion *ngFor="let task of tasks; let i = index">
+    <mat-expansion-panel  (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false">
       <mat-expansion-panel-header>
         <mat-panel-title>
             <h3 class="todoTitle">
-                <strong>{{task.task}}</strong>
+                <strong>{{task.title}}</strong>
             </h3>
         </mat-panel-title>
         <mat-panel-description>
           {{task.deadline}}
         </mat-panel-description>
+        <mat-icon class="delete-btn" (click)="moveUp($event,i)" aria-hidden="false" aria-label="Example home icon">delete_outline</mat-icon>
       </mat-expansion-panel-header>
       <p class="deadline">{{task.description}}</p>
     </mat-expansion-panel>
-  </mat-accordion>
+
+</mat-accordion>

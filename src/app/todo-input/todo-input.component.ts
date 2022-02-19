@@ -12,7 +12,7 @@ export class TodoInputComponent implements OnInit {
   emitter:any;
   call:any;
   TodoForm = new FormGroup({
-  task :new FormControl(''),
+  title :new FormControl(''),
   deadline : new FormControl(''),
   description: new FormControl(''),
   });
