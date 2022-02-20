@@ -8,7 +8,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TodoInputComponent } from './todo-input/todo-input.component';
 import { TasksComponent } from './tasks/tasks.component';
-import { CompletedComponent } from './completed/completed.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +15,6 @@ import { CompletedComponent } from './completed/completed.component';
     TabsComponent,
     TodoInputComponent,
     TasksComponent,
-    CompletedComponent
-    
   ],
   imports: [
     BrowserModule,

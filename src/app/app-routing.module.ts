@@ -12,7 +12,8 @@ const routes: Routes = [
    path: "tasks", component: TasksComponent
  },
  {
-   path:"completed", component: CompletedComponent
+   path:"completed",
+   loadChildren: () => import('./completed/completed.module').then(m => m.CompletedModule)
  },
  {
    path: "",  redirectTo: 'tasks', pathMatch: 'full' 
