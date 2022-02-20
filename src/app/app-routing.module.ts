@@ -1,3 +1,4 @@
+import { CompletedComponent } from './completed/completed.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TasksComponent } from './tasks/tasks.component';
@@ -5,13 +6,16 @@ import { TodoInputComponent } from './todo-input/todo-input.component';
 
 const routes: Routes = [
  {
-   path:"Input", component: TodoInputComponent 
+   path:"input", component: TodoInputComponent 
  },
  {
-   path: "Tasks", component: TasksComponent
+   path: "tasks", component: TasksComponent
  },
  {
-   path: "",  redirectTo: 'Tasks', pathMatch: 'full' 
+   path:"completed", component: CompletedComponent
+ },
+ {
+   path: "",  redirectTo: 'tasks', pathMatch: 'full' 
  }
  ];
 

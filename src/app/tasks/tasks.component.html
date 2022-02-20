@@ -8,9 +8,9 @@
             </h3>
         </mat-panel-title>
         <mat-panel-description>
-          {{task.deadline}}
+          {{task.deadline | date}}
         </mat-panel-description>
-        <mat-icon class="delete-btn" (click)="moveUp($event,i)" aria-hidden="false" aria-label="Example home icon">delete_outline</mat-icon>
+        <mat-icon class="delete-btn" (click)="remove($event,i)" aria-hidden="false" aria-label="Example home icon">delete_outline</mat-icon>
       </mat-expansion-panel-header>
       <p class="deadline">{{task.description}}</p>
     </mat-expansion-panel>

@@ -12,10 +12,10 @@ export class TasksComponent implements OnInit {
  tasks?:Task[];
  clickButton = true; 
   constructor(public inputShared: SharedDatasService) { }
-  moveUp(e: Event,id : any){
-    console.log(id);
-   console.log('this.tasks', this.tasks![id]);
-   e.stopPropagation(); 
+ remove(e: Event,id : any){
+   e.stopPropagation();
+   this.inputShared.completedPush(this.tasks![id])
+   this.inputShared.removeTask(id) 
 this.tasks= this.tasks?.filter((task:Task)=> task.title!==this.tasks![id].title )
   }
   

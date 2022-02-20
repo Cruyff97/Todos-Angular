@@ -13,12 +13,17 @@ export class TabsComponent implements OnInit {
     this.TabLinks = [
         {
             label: 'Tasks',
-            link: './Tasks',
+            link: './tasks',
             index: 0
         }, {
             label: 'Add Task',
-            link: './Input',
+            link: './input',
             index: 1
+        },
+        {
+          label: 'Completed',
+          link: './completed',
+          index: 2
         }
     ];
 }
