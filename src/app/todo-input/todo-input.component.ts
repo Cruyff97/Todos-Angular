@@ -9,8 +9,6 @@ import { SharedDatasService } from '../service/shared-datas.service';
   styleUrls: ['./todo-input.component.css']
 })
 export class TodoInputComponent implements OnInit {
-  emitter:any;
-  call:any;
   TodoForm = new FormGroup({
   title :new FormControl(''),
   deadline : new FormControl(''),

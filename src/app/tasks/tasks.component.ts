@@ -12,7 +12,7 @@ export class TasksComponent implements OnInit {
  tasks?:Task[];
  clickButton = true; 
   constructor(public inputShared: SharedDatasService) { }
- remove(e: Event,id : any){
+ remove(e: Event,id : number){
    e.stopPropagation();
    this.inputShared.completedPush(this.tasks![id])
    this.inputShared.removeTask(id) 
