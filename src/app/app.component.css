@@ -3,3 +3,6 @@ flex-direction: column;
 align-items: center;
 margin: 3px;
 }
+.mat-typography h3 {
+    margin: 0px;
+}
