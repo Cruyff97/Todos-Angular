@@ -1,6 +1,12 @@
 # Todo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+A small Todo App using Angular and Angular Material for styling.
+
+# Screenshots
+
+![home](https://user-images.githubusercontent.com/61983612/154938672-a78ada1f-ea13-439a-83c4-30a8cd0ab937.png)
+![add](https://user-images.githubusercontent.com/61983612/154938693-9c646204-ec33-4c90-a59e-733c5983b42c.png)
+![complet](https://user-images.githubusercontent.com/61983612/154938704-70e1b789-37b9-4b8f-9c6f-46c73316aae1.png)
 
 ## Development server
 
