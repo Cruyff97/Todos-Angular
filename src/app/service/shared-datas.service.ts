@@ -20,7 +20,6 @@ export class SharedDatasService {
 
 getCompleted(){
   return this.completed
-  
 }
   getTodos() {
     console.log(this.Todos);
