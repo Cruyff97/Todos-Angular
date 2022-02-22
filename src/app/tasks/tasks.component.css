@@ -1,15 +1,15 @@
-.todoTitle{
-    margin: 0px;
+.todoTitle {
+  margin: 0px;
 }
-.deadline{
-    margin-bottom: 1px;
+.deadline {
+  margin-bottom: 1px;
 }
-.completed{
-    text-decoration: line-through;
+.completed {
+  text-decoration: line-through;
 }
-.delete-btn{
-    margin-right: 10px;
+.delete-btn {
+  margin-right: 10px;
 }
-.delete-btn:hover{
-    color: red;
+.delete-btn:hover {
+  color: red;
 }

@@ -6,18 +6,10 @@ import { SharedDatasService } from './service/shared-datas.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
   title = 'Todo';
-  ngOnInit(): void {
-  
-  }
-  constructor(public sharedDatasService: SharedDatasService) {
-  
-  }
- 
-
-
-
+  ngOnInit(): void {}
+  constructor(public sharedDatasService: SharedDatasService) {}
 }

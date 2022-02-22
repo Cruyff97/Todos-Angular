@@ -21,7 +21,6 @@ export class TodoInputComponent implements OnInit {
   }
 onSubmit(){
   console.log(this.TodoForm.value);
-  
 this.inputShared.pushTodo(this.TodoForm.value)
 }
 }

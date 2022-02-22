@@ -22,10 +22,9 @@ import { TasksComponent } from './tasks/tasks.component';
     FormsModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-  MaterialModule
-   
+    MaterialModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
